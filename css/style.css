@@ -355,7 +355,7 @@ hr {
 }
 .market-flex-inner_wrapper img:last-child{
     top: .9rem;
-    left: .3rem;
+    left: .6rem;
 }
 .market-flex {
     display: flex;
@@ -380,3 +380,141 @@ hr {
 
 
 /* about THE END  */
+
+
+/* control  control  */
+.control {
+    display: block;
+    min-height: 118.2rem;
+    padding: 17rem 35.9rem;
+    background: #EBEBEB;
+    
+}
+.sectionGray {
+    padding: 17rem 0;
+    background: #F5F5F5;
+}
+
+.services {
+   
+    display: block;
+    max-width: 12rem;
+    padding: 0 1.6rem;
+    margin: 0 auto;
+    margin-bottom: .8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 2rem;
+    background: var(--greenColor);
+    color: var(--whiteColor);
+    text-align: center;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 147.5%; /* 23.6px */
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+}
+.services_text {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3.8rem;
+    max-width: 77.1rem;
+    color: var(--black);
+    text-align: center;
+    font-family: Cabin;
+    font-weight: 700;
+    line-height: 116%; /* 52.2px */
+}
+
+.control_wrapper-item {
+    max-width: 38.7rem;
+    min-height: 32.4rem;
+    padding: 4.9rem 4.7rem;
+    border-radius: 2rem;
+    background: #EBEBEB;
+}
+.control_wrapper-item img {
+    display: block;
+    margin-bottom: 2.4rem;
+
+}
+.control_wrapper-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    
+}
+.blockBlack {
+    background: var(--black);
+    
+    
+}
+.blockBlack h4, .blockBlack p {
+    color: var(--whiteColor);
+} 
+  /* <!-- конец Items --> */
+
+
+  /* proccess  proccess */
+
+  .proccess {
+    padding-top: 15rem;
+  }
+
+  .proccess-text{
+    display: flex;
+    max-width: 12.7rem;
+    padding: 0 1.5rem;
+    gap: 1rem;
+    margin-bottom: 1.6rem;
+    border-radius: 2rem;
+    background: var(--greenColor);
+    color: var(--whiteColor);
+    font-family: Lato;
+    font-size: 1.6rem;
+    line-height: 147.5%; /* 23.6px */
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+  }
+  .proccess-p {
+    max-width: 48.7rem;
+    margin-bottom: 4rem;
+  }
+  
+  .p-num{
+    max-width: 33.1rem;
+  }
+  .num{
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 100%;
+    font-size: 2.6rem;
+    font-weight: 600;
+    font-family: Cabin;
+    line-height: 116%; /* 30.16px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .num-text {
+    margin-left: 1.6rem;
+  }
+  .numbers-item {
+    display: flex;
+    margin-bottom: 4rem;
+}
+  .numOne {
+    background-color: var(--yellowColor);
+    color: var(--black);
+   
+}
+.numTwo{
+    background-color: var(--greenColor);
+    color: var(--whiteColor);
+}
+.numThree{
+    background-color: var(--black);
+    color: var(--whiteColor);
+}
