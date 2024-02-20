@@ -35,6 +35,7 @@
     font-weight: 600;
     line-height: 160%; 
 }
+
 .linkWhite {
     display: inline-block;
     color: var(--black);
