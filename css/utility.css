@@ -4,9 +4,18 @@
 .ml10 {
     margin-left: 1rem;
 }
+.fz50h5{
+    color: var(--black);
+    font-family: Cabin;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 116%; /* 58px */
+    margin-bottom: 1.2rem;
+}
 .fz45{
     font-size: 4.5rem;
     margin-bottom: 1.6rem;
+    font-weight: 700;
 }
 .fz20 {
     display: inline-block;
@@ -16,6 +25,15 @@
     font-weight: 600;
     margin-bottom: 1rem;
     line-height: 116%; /* 23.2px */
+}
+.fz30{
+    color: var(--black);
+    font-family: Cabin;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 116%; /* 34.8px */
+    margin-bottom: 8px;
 }
 .h4-text {
     display: inline-block;
